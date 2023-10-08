@@ -1,0 +1,162 @@
+header{
+    height: 86px;
+    /* pana la 975px width e ok elementul de mai jos */
+        border-bottom:2px solid brown;
+    /* background-color: rgba(212, 118, 24, 0.603); */
+}
+.menu{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom:2px;
+}
+.menu-item{
+    padding: 10px;
+    border:1px solid black;
+    margin-left: 3px;
+    border-radius: 4px;
+    background-color:rgba(221, 176, 118, 0.648);
+}
+/* .menu-item.a{
+    text-decoration: none;
+    color:black;
+} */
+.b1 {
+    padding: 20px;
+}
+
+.container {
+    padding: 5px 2% 20px 2%;
+}
+
+.content {
+    margin: 1px;
+}
+
+
+.top-title{
+    height:30px;
+    width:auto;
+    margin-top:1px;
+    border-top:2px solid brown;
+}
+.top-title-background{
+    background-color:#e0b84bdb;
+    z-index: -1;
+    height:39px;
+    
+}
+.top-title-text{
+    height:39px;
+    padding-top:5px;
+    margin-top:0px;
+    text-align:center; 
+    /* color:bisque; */
+    font-size:163%;
+    /* pana la latinmea 440 px e ok apoi treb @media si de micsorat font-size */
+}
+.row {
+    overflow: auto;
+}
+
+.galery-title{
+    height:30px;
+    width:auto;
+}
+.galery-title-background{
+    background-color:rgb(118, 20, 15);
+    z-index: -1;
+    
+}
+.galery-title-text{
+    height:39px;
+    padding-top:7px;
+    margin-top:0px;
+    text-align:center; 
+    color:bisque;
+    font-size:163%;
+}
+
+.rowa{
+    height: 51px;
+    z-index: -2;
+    position: absolute;
+    top: 265vh;
+    width: 100vw;
+    /* background-color: black;
+    color:bisque; */
+}
+
+.contacts-footer{
+    z-index: 1;
+}
+
+[class*="col-"] {
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+/* .col-10 { width: 10%; } */
+.col-20 {
+    width: 20%;
+    padding-right: 2px;
+    margin: 5px;
+}
+
+.col-50{
+    /* width: 45%; */
+    /* height: 100px; */
+    z-index: 1;
+}
+
+.slideshow-container {
+width:95%;
+/* min-height:477px; */
+}
+
+.slide {
+    display: none;
+    /* min-height:477px; */
+}
+
+.slide img {
+    max-width: 90%;
+    max-height: 750px;
+}
+
+.center-cropped {
+    /* object-fit: none; Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
+    height: 50vh;
+    width: 20vw;
+    margin:0.7%;
+}
+
+.galerie {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* de facut sa fie mai jos de slaier/carusela */
+    position: relative;
+}
+
+.img-galerie {
+    /* max-width: 21vw; */
+    /* vw = ViewWidth */
+    /* border-radius: 17px;
+    border: 2px solid brown; */
+    /* margin-top: 5px; */
+    height: 50vh;
+    width: 20vw;
+}
+
+footer{
+    /* background-color: black;*/
+    color:rgb(74, 20, 6); 
+    /* position: */
+}
+/* 
+.rotate90-img-galerie{
+    rotate:90deg;
+} */
